@@ -31,7 +31,7 @@ export default class Slider {
 
         this.slides.forEach(slide => {
             slide.style.display = 'none';
-            slide.classList.add('animated', 'fadeIn');
+            slide.classList.add('animated', 'slideInDown');
         });
 
         this.slides[this.slideIndex - 1].style.display = 'block';
